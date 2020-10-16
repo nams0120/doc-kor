@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAITAINER "kevin-lee <hylee@dashub.cloud>"
+MAINTAINER "kevin-lee <hylee@dashub.cloud>"
 LABEL "purpose"="static web service"
 RUN apt-get update
 RUN apt-get install apache2 -y
